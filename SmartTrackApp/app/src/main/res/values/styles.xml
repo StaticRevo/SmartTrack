@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomChipStyle" parent="Widget.MaterialComponents.Chip.Entry">
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="chipCornerRadius">16dp</item>
+        <item name="chipBackgroundColor">@color/light_green</item>
+        <!-- Add this to ensure text is centered -->
+        <item name="android:gravity">center</item>
+        <!-- Adjust padding if needed -->
+        <item name="android:padding">0dp</item>
+    </style>
+    <!-- Light theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorButtonNormal">@color/light_green</item>
+        <!-- Other styles... -->
+    </style>
+    <!-- Dark theme. -->
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorOnSurface">@color/white</item>
+        <!-- Other styles... -->
+    </style>
+
+    <style name="EditTextDarkTheme" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+    </style>
+
+
+</resources>
